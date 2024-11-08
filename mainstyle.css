@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.amazon-navsec {
+  height: 80px;
+  background-color: #131921;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+}
+.amazon-navsec .logo {
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.amazon-navsec .logo img {
+  width: 100%;
+}
+.amazon-navsec .location {
+  font-weight: 600;
+  color: #fff;
+}
+.amazon-navsec .location .top {
+  margin-left: 22px;
+}
+.amazon-navsec .location .bottom {
+  display: flex;
+  align-items: center;
+}
+.amazon-navsec .location .bottom .icon {
+  margin-right: 8px;
+}
+.amazon-navsec .location .bottom .icon img {
+  width: 18px;
+}
+.amazon-navsec .location .bottom svg {
+  width: 16px;
+  color: #fff;
+}
+.amazon-searchbox {
+  display: flex;
+  justify-content: space-evenly;
+  height: 40px;
+  width: 600px;
+  border: 0;
+  outline: 0;
+}
+.amazon-searchbox .category {
+  width: 60px;
+  text-align: center;
+  outline: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.amazon-searchbox input {
+  width: 100%;
+  border: 0;
+  outline: none;
+  padding-left: 8px;
+}
+.amazon-searchbox .seach-icon {
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(235, 182, 84);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 8px;
+}
+.amazon-searchbox .seach-icon img {
+  width: 100%;
+}
+.amazon-searchbox:hover {
+  border: 1px solid rgb(212, 158, 59);
+  border-radius: 10px;
+}
+.amazon-language {
+  display: flex;
+  align-items: center;
+}
+.amazon-language select {
+  color: #fff;
+  background: transparent;
+  border: 0;
+  width: 70px;
+  font-weight: 600;
+}
+.amazon-language img {
+  width: 40px;
+}
+.amazon .signin {
+  margin: 10px;
+}
+.amazon .signin .text {
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+}
+.amazon .signin .name {
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
+.amazon-accountdetails {
+  display: flex;
+}
+.amazon .cart {
+  margin: 10px;
+  display: flex;
+  font-weight: 600;
+  color: #fff;
+  font-size: 14px;
+  align-items: center;
+}
+.amazon .cart img {
+  width: 32px;
+  margin-right: 10px;
+}/*# sourceMappingURL=mainstyle.css.map */
